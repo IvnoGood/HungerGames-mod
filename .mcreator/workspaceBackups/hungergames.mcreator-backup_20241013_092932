@@ -1,0 +1,1511 @@
+{
+  "mod_elements": [
+    {
+      "name": "Arbre",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arbre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/ArbreProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block regenration"
+    },
+    {
+      "name": "Ores",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ores",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/OresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block regenration"
+    },
+    {
+      "name": "Corne",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corne",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hungergames/loot_tables/blocks/corne.json"
+        ]
+      },
+      "path": "~/loot tables"
+    },
+    {
+      "name": "Around",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "around",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hungergames/loot_tables/chests/around.json"
+        ]
+      },
+      "path": "~/loot tables"
+    },
+    {
+      "name": "DefuseTool",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "defuse_tool",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hungergames/models/item/defuse_tool.json",
+          "src/main/java/net/mcreator/hungergames/item/DefuseToolItem.java"
+        ]
+      },
+      "path": "~/traps"
+    },
+    {
+      "name": "PoisonusRedstoneOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonus_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/PoisonusRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/traps"
+    },
+    {
+      "name": "Poisonus",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/block/entity/PoisonusBlockEntity.java",
+          "src/main/resources/data/hungergames/loot_tables/blocks/poisonus.json",
+          "src/main/resources/assets/hungergames/blockstates/poisonus.json",
+          "src/main/java/net/mcreator/hungergames/block/PoisonusBlock.java",
+          "src/main/resources/assets/hungergames/models/item/poisonus.json",
+          "src/main/resources/assets/hungergames/models/block/poisonus.json"
+        ]
+      },
+      "path": "~/traps"
+    },
+    {
+      "name": "PoisonusBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonus_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/PoisonusBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/traps"
+    },
+    {
+      "name": "Deathblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hungergames/models/item/deathblock.json",
+          "src/main/resources/data/hungergames/loot_tables/blocks/deathblock.json",
+          "src/main/resources/assets/hungergames/blockstates/deathblock.json",
+          "src/main/resources/assets/hungergames/models/block/deathblock.json",
+          "src/main/java/net/mcreator/hungergames/block/DeathblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Playerdies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "playerdies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/PlayerdiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeathblockRedstoneOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathblock_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/DeathblockRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DataOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "data_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/DataOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/traps"
+    },
+    {
+      "name": "CommonTagRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "common_tag_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/CommonTagRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/loot tables/tags"
+    },
+    {
+      "name": "CommonTag",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "common_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hungergames/models/item/common_tag.json",
+          "src/main/java/net/mcreator/hungergames/item/CommonTagItem.java"
+        ]
+      },
+      "path": "~/loot tables/tags"
+    },
+    {
+      "name": "RareTag",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hungergames/models/item/rare_tag.json",
+          "src/main/java/net/mcreator/hungergames/item/RareTagItem.java"
+        ]
+      },
+      "path": "~/loot tables/tags"
+    },
+    {
+      "name": "RareTagRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_tag_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/RareTagRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/loot tables/tags"
+    },
+    {
+      "name": "EpicTagRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_tag_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/EpicTagRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/loot tables/tags"
+    },
+    {
+      "name": "EpicTag",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_tag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/item/EpicTagItem.java",
+          "src/main/resources/assets/hungergames/models/item/epic_tag.json"
+        ]
+      },
+      "path": "~/loot tables/tags"
+    },
+    {
+      "name": "CorneTag",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corne_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hungergames/models/item/corne_tag.json",
+          "src/main/java/net/mcreator/hungergames/item/CorneTagItem.java"
+        ]
+      },
+      "path": "~/loot tables/tags"
+    },
+    {
+      "name": "CornTagRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corne_tag_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/CornTagRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/loot tables/tags"
+    },
+    {
+      "name": "Natural",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/NaturalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block regenration"
+    },
+    {
+      "name": "Rarearound",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rarearound",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hungergames/loot_tables/chests/rarearound.json"
+        ]
+      },
+      "path": "~/loot tables"
+    },
+    {
+      "name": "Epicaround",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epicaround",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hungergames/loot_tables/blocks/epicaround.json"
+        ]
+      },
+      "path": "~/loot tables"
+    },
+    {
+      "name": "Poisonusgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonusgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/client/gui/PoisonusguiScreen.java",
+          "src/main/java/net/mcreator/hungergames/network/PoisonusguiButtonMessage.java",
+          "src/main/java/net/mcreator/hungergames/world/inventory/PoisonusguiMenu.java"
+        ]
+      },
+      "path": "~/traps"
+    },
+    {
+      "name": "Coordinatesxchange",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coordinatesxchange",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/CoordinatesxchangeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/traps/add"
+    },
+    {
+      "name": "Coordinatesychange",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coordinatesychange",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/CoordinatesychangeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/traps/add"
+    },
+    {
+      "name": "Coodinateszchange",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coodinateszchange",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/CoodinateszchangeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/traps/add"
+    },
+    {
+      "name": "Coordinatesxchangeminus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coordinatesxchangeminus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/CoordinatesxchangeminusProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/traps/substract"
+    },
+    {
+      "name": "Coordinatesychangeplus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coordinatesychangeminus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/CoordinatesychangeplusProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/traps/substract"
+    },
+    {
+      "name": "Coordinateszchangeminus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coordinateszchangeminus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/CoordinateszchangeminusProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/traps/substract"
+    },
+    {
+      "name": "Actualx",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actualx",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/ActualxProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/traps"
+    },
+    {
+      "name": "Actualy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actualy",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/ActualyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/traps"
+    },
+    {
+      "name": "Actualz",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actualz",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/ActualzProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/traps"
+    },
+    {
+      "name": "Poisonaround",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "poisonaround",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/Poisonaround.java"
+        ]
+      }
+    },
+    {
+      "name": "Poisonaroun",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonaroun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/PoisonarounProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/traps"
+    },
+    {
+      "name": "Setstartingpos",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setstartingpos",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/SetstartingposProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/positions"
+    },
+    {
+      "name": "Setstartpos",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setstartpos",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/command/SetstartposCommand.java"
+        ]
+      },
+      "path": "~/positions"
+    },
+    {
+      "name": "TestOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/TestOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/positions"
+    },
+    {
+      "name": "Teleporttostartpos",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporttostartpos",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/TeleporttostartposProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/positions"
+    },
+    {
+      "name": "Tpstartpos",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tpstartpos",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/command/TpstartposCommand.java"
+        ]
+      },
+      "path": "~/positions"
+    },
+    {
+      "name": "Startglass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "startglass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hungergames/models/block/startglass.json",
+          "src/main/resources/data/hungergames/loot_tables/blocks/startglass.json",
+          "src/main/resources/assets/hungergames/blockstates/startglass.json",
+          "src/main/java/net/mcreator/hungergames/block/StartglassBlock.java",
+          "src/main/resources/assets/hungergames/models/item/startglass.json"
+        ]
+      }
+    },
+    {
+      "name": "Prepare",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prepare",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/command/PrepareCommand.java"
+        ]
+      },
+      "path": "~/startup"
+    },
+    {
+      "name": "RandomizeTag",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "randomize_tag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/item/RandomizeTagItem.java",
+          "src/main/resources/assets/hungergames/models/item/randomize_tag.json"
+        ]
+      },
+      "path": "~/loot tables/tags"
+    },
+    {
+      "name": "RandomizeTagRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "randomize_tag_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/RandomizeTagRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/loot tables/tags"
+    },
+    {
+      "name": "PrepareProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prepare_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/PrepareProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/startup"
+    },
+    {
+      "name": "Countdeaths",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "countdeaths",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/CountdeathsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Deathcount",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathcount",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/command/DeathcountCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Toggleblockregencommand",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggleblockregencommand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/procedures/ToggleblockregencommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block regenration"
+    },
+    {
+      "name": "Toggleblockregen",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggleblockregen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hungergames/command/ToggleblockregenCommand.java"
+        ]
+      },
+      "path": "~/block regenration"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "deaths",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "pos1x",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos1y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos1z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos2x",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos2y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos2z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos3x",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos3y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos3z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos4x",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos4y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos4z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos5x",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos5y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos5z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos6x",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos6y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos6z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos7x",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos7y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos7z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos8x",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos8y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos8z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos9x",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos9y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos9z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos10x",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos10y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos10z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos11x",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos11y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos11z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos12x",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos12y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos12z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos13x",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos13y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos13z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos14x",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos14y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pos14z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "toggleblockregen",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "lightinthedark",
+      "files": [
+        "light-in-dark-places_-by-scott-buckley-__-calm-epic-music-_no-copyright_-_"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:DefuseTool"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gui.hungergames.poisonusgui.label_change_coordinates": "Change coordinates:",
+      "item.hungergames.rare_tag": "Rare Tag",
+      "block.hungergames.startglass": "Startglass",
+      "gui.hungergames.poisonusgui.label_poisonus": "Poisonus",
+      "item.hungergames.defuse_tool": "Defuse Tool",
+      "gui.hungergames.poisonusgui.button_y1": "y",
+      "gui.hungergames.poisonusgui.button_z1": "z",
+      "gui.hungergames.poisonusgui.button_x1": "x",
+      "gui.hungergames.poisonusgui.label_substract": "Substract:",
+      "item.hungergames.epic_tag": "Epic Tag",
+      "item.hungergames.corne_tag": "Corne Tag",
+      "block.hungergames.poisonus": "Poisonus",
+      "block.hungergames.deathblock": "Deathblock",
+      "gui.hungergames.poisonusgui.button_y": "y",
+      "gui.hungergames.poisonusgui.label_add": "Add:",
+      "gui.hungergames.poisonusgui.button_z": "z",
+      "gui.hungergames.poisonusgui.label_x": "x",
+      "subtitles.lightinthedark": "",
+      "gui.hungergames.poisonusgui.label_z": "z",
+      "gui.hungergames.poisonusgui.label_y": "y",
+      "item.hungergames.common_tag": "Common Tag",
+      "gui.hungergames.poisonusgui.button_x": "x",
+      "item.hungergames.randomize_tag": "Randomize Tag"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "loot tables",
+        "children": [
+          {
+            "name": "tags",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "block regenration",
+        "children": []
+      },
+      {
+        "name": "traps",
+        "children": [
+          {
+            "name": "add",
+            "children": []
+          },
+          {
+            "name": "substract",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "positions",
+        "children": []
+      },
+      {
+        "name": "startup",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "hungergames",
+    "modName": "HungerGames",
+    "version": "1.1.0",
+    "description": "The official IvnoGood HungerGames Minecraft Mod",
+    "author": "IvnoGood, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "icon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.hungergames"
+  },
+  "mcreatorVersion": 202400232117
+}

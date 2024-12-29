@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Not specified"
+
+[[mods]]
+modId="hungergames"
+version="1.1.0"
+displayName="HungerGames"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="IvnoGood, MCreator"
+description="The official IvnoGood HungerGames Minecraft Mod"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.hungergames]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

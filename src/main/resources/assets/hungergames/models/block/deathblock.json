@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/furnace_top",
+    "up": "minecraft:block/dispenser_front_vertical",
+    "north": "minecraft:block/jigsaw_top",
+    "east": "minecraft:block/jigsaw_side",
+    "south": "minecraft:block/jigsaw_top",
+    "west": "minecraft:block/jigsaw_side",
+    "particle": "minecraft:block/furnace_top"
+  },
+  "render_type": "solid"
+}
